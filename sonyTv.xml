@@ -1,0 +1,50 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulesonyTv" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulesonyTv" scope="public">
+    <example>Sarah éteint la TV</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+
+    <one-of>
+      <item>allume la télé<tag>out.action.sonyTv = "allume";out.action.callback = "j'allume la télé"</tag></item>
+      <item>éteint la télé<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAvAw==";out.action.callback = "j'éteins la télé"</tag></item>
+	  <item>active la 3D<tag>out.action.sonyTv = "AAAAAgAAAHcAAABNAw==";</tag></item>	  
+	  <item>désactive la 3D<tag>out.action.sonyTv = "AAAAAgAAAHcAAABNAw==";</tag></item>  
+	  <item>met la télé plus fort<tag>out.action.sonyTv = "AAAAAQAAAAEAAAASAw==";</tag></item>  
+	  <item>met le son de la télé plus fort<tag>out.action.sonyTv = "AAAAAQAAAAEAAAASAw==";</tag></item>  
+	  <item>monte le son de la télé<tag>out.action.sonyTv = "AAAAAQAAAAEAAAASAw==";</tag></item>  
+	  <item>baisse le son de la télé<tag>out.action.sonyTv = "AAAAAQAAAAEAAAATAw==";</tag></item> 	
+	  <item>met la télé moins fort<tag>out.action.sonyTv = "AAAAAQAAAAEAAAATAw==";</tag></item> 
+	  <item>coupe le son de la télé<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAUAw==";</tag></item> 
+	  <item>remet le son de la télé<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAUAw==";</tag></item>
+	  <item>met la chaine suivante<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAQAw==";</tag></item>
+	  <item>met la chaine précédente<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAQAw==";</tag></item>
+	  <item>met la une<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAAAw==";</tag></item>
+	  <item>met TF1<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAAAw==";</tag></item>
+	  <item>met la deux<tag>out.action.sonyTv = "AAAAAQAAAAEAAAABAw==";</tag></item>
+	  <item>met france deux<tag>out.action.sonyTv = "AAAAAQAAAAEAAAABAw==";</tag></item>
+	  <item>met la trois<tag>out.action.sonyTv = "AAAAAQAAAAEAAAACAw==";</tag></item>
+	  <item>met france trois<tag>out.action.sonyTv = "AAAAAQAAAAEAAAACAw==";</tag></item>
+	  <item>met la quatre<tag>out.action.sonyTv = "AAAAAQAAAAEAAAADAw==";</tag></item>
+	  <item>met canal plus<tag>out.action.sonyTv = "AAAAAQAAAAEAAAADAw==";</tag></item>
+	  <item>met la cinq<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAEAw=="</tag></item>
+	  <item>met la six<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAFAw=="</tag></item>
+	  <item>met la sept<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAGAw=="</tag></item>
+	  <item>met la huit<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAHAw=="</tag></item>
+	  <item>met la neuf<tag>out.action.sonyTv = "AAAAAQAAAAEAAAAIAw=="</tag></item>
+	  <item>met la dix<tag>out.action.sonyTv = "AAAAAgAAAJcAAAAMAw=="</tag></item>
+	  <item>met achedé èmi 1<tag>out.action.sonyTv = "AAAAAgAAABoAAABaAw=="</tag></item>
+	  <item>met achedé èmi 2<tag>out.action.sonyTv = "AAAAAgAAABoAAABbAw=="</tag></item>
+	  <item>met achedé èmi 3<tag>out.action.sonyTv = "AAAAAgAAABoAAABcAw=="</tag></item>
+	  <item>met achedé èmi 4<tag>out.action.sonyTv = "AAAAAgAAABoAAABdAw=="</tag></item>
+	  <item>met pause<tag>out.action.sonyTv = "AAAAAgAAAJcAAAAZAw=="</tag></item>
+	  <item>met lecture<tag>out.action.sonyTv = "AAAAAgAAAJcAAAAaAw=="</tag></item>
+	  <item>met stop<tag>out.action.sonyTv = "AAAAAgAAAJcAAAAYAw=="</tag></item>
+	  <item>change les sous titres<tag>out.action.sonyTv = "AAAAAgAAAJcAAAAoAw=="</tag></item>
+	  <item>passe en duplication d'écran<tag>out.action.sonyTv = "AAAAAgAAABoAAABvAw=="</tag></item>
+	  <item>met la duplication d'écran<tag>out.action.sonyTv = "AAAAAgAAABoAAABvAw=="</tag></item>
+	</one-of>
+	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/sonyTv";</tag>
+    
+  </rule>  
+</grammar>

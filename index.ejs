@@ -1,0 +1,35 @@
+<%- layout('/layout/modal.ejs') -%>
+
+<p>Ce module permet de piloter une TV Sony (2014) avec SARAH</p>
+
+<div class="alert alert-info" role="alert">
+  <h4>Participants</h4>
+  <p>tchex</p>
+  <p>Module largement inspiré du module LGTV de sarakha63</p>
+</div>
+<h4>Utilisation de sonyTv avec SARAH <span class="badge">New</span></h4>
+	Il est nécessaire d'avoir Python 3 installé sur la machine (SARAH). De plus le module Python 'wakeonlan' doit être installé. 
+	<br />Il faut aussi renseigner l'addresse ip de la TV.
+	<br />Adresse au format : XXX.XXX.XXX.XXX
+	<br />Ainsi que l'addresse MAC de la TV.
+	<br />Adresse au format : aa:bb:cc:dd:ee:ff
+	<br />Une fois cela fait :
+		<br />Vous lancerez une commande au hasard par exemple : SARAH monte le son de la TV
+		<br />Normalement la TV devrait afficher une clé. 
+		<br />VOUS N'AVEZ ALORS QUE 60 SECONDES POUR EFFECTUER LES 2 ETAPES SUIVANTES
+		<br />1 : Saisissez-la dans le champ clé de la config du module et sauvez.
+		<br />2 : Relancez une commande (SARAH monte le son de la TV)
+		<br />Si tout s'est bien passé, vous avez alors accès à toutes les commandes
+	<br />Vous pourrez dire : <br />Sarah met la un
+						<br />Sarah active la 3D
+						<br />Sarah monte le son de la télé
+						<br />Sarah éteint la télé
+						<br />Sarah allume la télé						
+						<br />etc.....
+						<br />Pour les commandes détaillées je vous invite à jeter un oeil au fichier xml
+	<br />Si à tout hasard vous mettez une mauvaise clé, n'importe qu'elle commande vous remettra la clé sur la TV
+<div class="tab-pane active" id="plugin-version">
+<h4>Version 1.0 : init</h4>
+
+
+</div><!-- tab-content -->

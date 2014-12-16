@@ -1,0 +1,12 @@
+{
+  "modules" : { 
+    "sonyTv"  : {
+      "description" : "Sony TV",
+      "version" : "1.0",
+      "ip" : "",
+      "key" : "",
+	  "mac" : "",
+	  "Auto On" : ""
+    }
+  }
+}

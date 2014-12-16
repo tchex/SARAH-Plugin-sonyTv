@@ -1,0 +1,1 @@
+auth=84c5c3331fa5804c1be4323d82e1a2f90e615957234c701dbc442ac4c0535f06; path=/sony/; max-age=1209600; expires=Mon, 22-Dec-2014 21:41:30 GMT;

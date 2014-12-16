@@ -1,0 +1,8 @@
+#sonyTv .portlet-header,
+#sonyTv .portlet-footer {
+  background-color: #413C3C;
+}
+#sonyTv .portlet-body {
+  color: #413C3C;
+  background: #FFFFFF;
+}
